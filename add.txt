@@ -1,0 +1,7 @@
+git status
+git init
+git status
+
+git add pom.xml
+git status
+git add .
