@@ -5,3 +5,28 @@ git status
 git add pom.xml
 git status
 git add .
+git status
+
+git commit -m "Добавлены файлы проекта"
+git status
+git log --oneline --graph --decorate --all
+
+git status
+git checkout master
+
+=
+git checkout -b feature-1
+
+git status
+git log --oneline --graph --decorate --all
+
+git checkout master
+git log --oneline --graph --decorate --all
+git checkout feature-1
+
+git checkout master
+git merge feature-1
+git log --oneline --graph --decorate --all
+
+git remote add origin git@github.com:ciscomsk/otus_java_basic_2026_03_l14.git
+git push origin master
